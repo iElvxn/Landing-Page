@@ -1,0 +1,162 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+
+}
+
+.header,
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 12px 15%;
+
+}
+
+.header {
+    justify-content: space-between;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(6, 39, 70);
+}
+
+.footer {
+    justify-content: center;
+    background-color: rgb(21, 22, 24);
+    color: white;
+    font-size: 16px;    
+}
+
+.logo {
+    font-weight: 900;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 16px;
+  }
+
+  /*Section 1 of the site*/
+  .section1{
+    background-color: rgb(6, 39, 70);
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    padding: 5% 15%;
+  }
+
+  .left1,
+  .right1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .welcomeHeader {
+    font-size: 36px;
+    font-weight: 1000;
+  }
+
+  .welcomeImage {
+    background-color: rgb(82, 82, 82);
+    height: 250px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+   /*Main section of the site*/
+
+ .main {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;
+ }
+
+ .iconcontainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+ }
+
+ .icon{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    outline: solid rgb(174, 225, 245);
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(174, 225, 245);
+    display: flex;
+    flex-direction: column;
+
+ }
+ .iconheader {
+    margin-top: 7px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+ }
+ .iconsubtext {
+    padding: 0px;
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+ }
+
+ .quote {
+    margin-top: 150px;
+    background-color: rgb(226, 229, 231);
+    padding: 4em 13em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+ }
+
+ .quote p {
+    align-self: flex-end;
+    font-size: 24px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
