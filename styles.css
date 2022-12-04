@@ -8,7 +8,7 @@ body {
 .footer{
     display: flex;
     align-items: center;
-    padding: 12px 15%;
+    padding: 10px 15%;
 
 }
 
@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     font-size: 24px;
     color: white;
-    background-color: rgb(6, 39, 70);
+    background-color: rgb(22, 22, 22);
 }
 
 .footer {
@@ -42,7 +42,7 @@ ul {
 
   /*Section 1 of the site*/
   .section1{
-    background-color: rgb(6, 39, 70);
+    background-color: rgb(22, 22, 22);
     align-items: center;
     justify-content: space-between;
     display:flex;
@@ -79,53 +79,48 @@ ul {
  .main {
     display: flex;
     flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 150px;
  }
 
  .title {
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
     margin-top: 40px;
-    font-weight: 900;
+    font-weight: 950;
     margin-bottom: 50px;
  }
 
  .iconcontainer{
-    
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    background-color: rgb(240, 240, 240);
  }
 
  .icon{
     width: 200px;
     height: 200px;
-    background-color: rgb(255, 255, 255);
     outline: solid rgb(174, 225, 245);
     border-radius: 10px;
     box-shadow: 0px 0px 30px rgb(174, 225, 245);
     display: flex;
     flex-direction: column;
+    background-color: rgb(240, 240, 240);
 
  }
  .iconheader {
-    margin-top: 7px;
-    padding: 0px;
-    font-size: 24px;
-    font-weight: 900;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
     color: black;
     text-align: center;
- }
- .iconsubtext {
-    padding: 0px;
-    font-size: 16px;
-    color: gray;
-    text-align: center;
+    background-color: rgb(240, 240, 240);
  }
 
  .quote {
-    margin-top: 150px;
     background-color: rgb(226, 229, 231);
     padding: 4em 13em;
     display: flex;
